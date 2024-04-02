@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com CSS</title>
+    <link rel="shortcut icon" href="img/logos-site-T.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+    <style>
+        table{
+            border-width: 600px;
+        }
+        .tabelo{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            border: white solid 3px;
+
+        }
+        td{
+          width: 10%;  
+        }
+        .prata{
+            background-color: silver;
+            color: black;
+            text-align: center;
+        }
+        .preto{
+            color: black;
+        }
+        .azulescuro{
+            background-color: #0D5188;
+            color: white;
+        }
+        .azulmedio{
+            background-color: #66C5E3;
+        }
+        .azulclaro{
+            background-color: #c7e7f3;
+            color: #0D5188;
+        }
+        b{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="6" class="azulescuro">Cidade mais populosas da Bahia <br>
+                (estimativa de 2009 do <abbr title="Instituto Brasileiro de Geografia e Estatistica">IBGE</abbr>)
+            </th>
+        </tr>
+        <tr class="azulmedio">
+            <td >Posição</td>
+            <td >Cidade</td>
+            <th>Pop.</th>
+            <td>Posição</td>
+            <td >Cidade</td>
+            <th>Pop.</th>
+        </tr>
+        <tr class="azulclaro">
+            <td class="prata"><b>1</b></td>
+            <td>Salvador</td>
+            <td class="preto">2 998 056</td>
+            <td class="prata"><b>3</b></td>
+            <td>Vitória da Conquista</td>
+            <td class="preto">318 901</td>
+        </tr>
+        <tr class="azulclaro">
+            <td class="prata"><b>2</b></td>
+            <td>Feira de Santana</td>
+            <td class="preto">519 707</td>
+            <td class="prata"><b>4</b></td>
+            <td>Juazeiro</td>
+            <td class="preto">243 896</td>
+        </tr>   
+    </table>
+</body>
+</html>
